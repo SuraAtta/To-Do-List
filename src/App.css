@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.app{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 182, 193, 0.189);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputField{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 182, 193, 0.908);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-container{
+    width: 30%;
+    background-color: rgba(255, 182, 193, 0.605);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 182, 193, 0.908);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: 
+    #979797;
+    color: #fff;
+    cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.nots{
+  margin: 20px;
 }
+.nots-compnents{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    justify-items: stretch;
+    width: 300px;
+    height: max-content+10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 182, 193, 0.908);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.note-butn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+.note-1{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 182, 193, 0.908);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: 
+    #979797;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+.inputField2{
+    border-radius: 10px;
+    border: 1px solid rgba(255, 182, 193, 0.908);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 0px;
+    width: 300px;
 }
